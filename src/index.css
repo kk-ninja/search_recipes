@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
+    font-family: 'Padauk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +9,169 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar
+{
+  background-color: #fff!important;
+  font-family: 'Padauk', sans-serif;
+  
+}
+
+.navbar .navbar-brand{
+  color:  #03b1fc!important;
+  font-size: 1.5rem;
+  
+}
+
+.navbar a{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.navbar a:hover{
+  color:  #03b1fc!important;
+}
+
+.menu_active
+{
+  border-bottom: 1px solid #565387;
+  color:  #03b1fc!important;
+}
+
+.center{
+  text-align: center;
+}
+.footer{
+  bottom: 0px;
+}
+
+
+.height{
+  height: 85vh;
+}
+
+
+.textCol{
+  color:  #03b1fc!important;
+}
+
+
+.btnD{
+  border-radius: 30px!important;
+  border: 2px solid #03b1fc;
+  background-color: #fff;
+  padding: 6px 20px;
+  font-weight: 600;
+  color: #03b1fc;
+  width: 6.2rem;
+  text-decoration:none!important;
+}
+
+
+.btnD:hover{
+  background-color: #03b1fc;
+  color: #fff;
+
+}
+
+
+.searchInputBox{
+  border-radius: 30px!important;
+}
+.btnS{
+  border-radius: 30px!important;
+  border: 2px solid #03b1fc;
+  background-color: #fff;
+  padding: 2px 16px;
+  color: #03b1fc;
+  min-width: 7.4rem;;
+  text-decoration:none!important;
+}
+.btnS:hover{
+  background-color: #03b1fc;
+  color: #fff;
+
+}
+
+.btnC{
+  border-radius: 30px!important;
+  border: 2px solid #FD7272;
+  background-color: #fff;
+  padding: 4px 16px;
+  color: #FD7272;
+  text-decoration:none!important;
+}
+.btnC:hover{
+  background-color: #FD7272;
+  color: #fff;
+
+}
+
+
+.card 
+{
+  width: 18rem;
+  margin-bottom: 60px;
+}
+
+.card_img{
+  height: 250px!important;
+
+
+}
+
+.brand_clr{
+  color: #03b1fc;
+}
+
+
+
+
+.jambo_icon_m{
+  font-size: 60px;
+  color: #ffdd59;
+}
+
+
+.table-align{
+  text-align: right;
+  
+  color: #FD7272;
+}
+.h_nonVeg{
+  color:  #FD7272;
+  text-align: right;
+}
+.h_veg{
+  color: #05c46b;
+}
+.table{
+  color: #FD7272;
+  font-weight: bold;
+}
+
+
+.animated{
+  animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes left-right
+{
+  0%{
+    transform: translateX(10px);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes left-right
+{
+  0%{
+    transform: translateX(10px);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
 }

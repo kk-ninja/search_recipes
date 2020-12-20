@@ -1,0 +1,88 @@
+.R_img{
+    height: 200px;
+    width: 100%;
+}
+
+.R_card{
+    box-shadow: 3px 3px 5px lightgrey, -0.2em 0 .4em lightgrey;
+    border-radius: 28px;
+    margin-bottom: 25px;
+    min-height: 316px;
+   
+ }
+.R_card:hover{
+    box-shadow: 3px 3px 12px grey, -0.2em 0 1em grey;
+    cursor: pointer;
+}
+
+.R_card_body{
+    padding: 16px;
+    
+}
+.R_img_div{
+    padding-bottom: 12px;
+}
+.R_img{
+    border-radius: 28px;
+    box-shadow: 3px 3px 5px lightgrey, -0.2em 0 .4em lightgrey;
+}
+.R_title{
+    font-weight: 700;
+    text-align: center;
+    color: #03b1fc;
+    padding-bottom: 0px;
+}
+.R_servings{
+    display: none;
+}
+.R_energy{
+    
+    color: rgba(0,0,0,0.5);
+}
+
+.R_heading{
+    color:   rgba(0,0,0,0.5);
+}
+.R_top{
+    padding: 25px 0px;
+}
+.jambo_icon_r{
+    font-size: 60px;
+    color: #6bdb2a;
+  }
+
+.In_card{
+    box-shadow: 3px 3px 5px lightgrey, -0.2em 0 .4em lightgrey;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    min-height: 72px;
+    padding: 8px 8px 8px;
+}
+
+.In_card:hover{
+    box-shadow: 3px 3px 12px grey, -0.2em 0 1em grey;
+    
+}
+.In_title{
+    font-weight: 700;
+    color: #03b1fc;
+    padding-bottom: 0px;
+}
+.In_img{
+    height: 58px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px lightgrey, -0.2em 0 .4em lightgrey;
+}
+.In_info_td{
+    padding-left: 8px;
+    vertical-align: top;
+    line-height: 14px;;
+}
+.In_name{
+    color: #03b1fc;
+}
+.In_weight{
+    padding-top: 8px;
+    color: grey;
+}
